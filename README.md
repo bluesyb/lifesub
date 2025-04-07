@@ -1,4 +1,1 @@
-
-# 생활구독추천 서비스
-
-
+LifeSub Project
