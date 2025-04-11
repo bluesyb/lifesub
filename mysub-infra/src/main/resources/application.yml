@@ -21,7 +21,7 @@ spring:
 
 # Secret key 만들기: openssl rand -base64 32
 jwt:
-  secret-key: ${JWT_SECRET_KEY:8O2HQ13etL2BWZvYOiWsJ5uWFoLi6NBUG8divYVoCgtHVvlk3dqRksMl16toztDUeBTSIuOOPvHIrYq11G2BwQ}
+  secret-key: ${JWT_SECRET_KEY}
 
 allowed-origins: ${ALLOWED_ORIGINS:http://localhost:3000}
 
